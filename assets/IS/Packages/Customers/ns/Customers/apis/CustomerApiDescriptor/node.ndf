@@ -612,6 +612,7 @@
       </record>
     </record>
   </record>
+  <Boolean name="matchRequestResponsePayloadWithRad">true</Boolean>
   <null name="radSource"/>
   <value name="radVersion">1.0</value>
   <array name="generatedDoctypes" type="record" depth="1">
@@ -623,4 +624,5 @@
   <array name="resourceNodeNSNames" type="value" depth="1">
     <value>Customers.apis:customer</value>
   </array>
+  <Boolean name="addRootElementToResponse">true</Boolean>
 </Values>
