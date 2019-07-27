@@ -30,6 +30,19 @@
             <value name="email">contact@johnandsons.com</value>
           </record>
         </record>
+        <record javaclass="com.wm.data.ISMemDataImpl">
+          <value name="name">Harry Winston</value>
+          <value name="id">3</value>
+          <record name="address" javaclass="com.wm.data.ISMemDataImpl">
+            <value name="line1">1 Winston Circle</value>
+            <value name="city">London</value>
+            <value name="state">England</value>
+          </record>
+          <record name="contact" javaclass="com.wm.data.ISMemDataImpl">
+            <value name="phone">+447015558787</value>
+            <value name="email">Harry.Winston@Debeers.com</value>
+          </record>
+        </record>
       </array>
     </record>
   </record>

@@ -114,6 +114,19 @@
         <value name="email">contact@johnandsons.com</value>
       </record>
     </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="name">Harry Winston</value>
+      <value name="id">3</value>
+      <record name="address" javaclass="com.wm.util.Values">
+        <value name="line1">1 Winston Circle</value>
+        <value name="city">London</value>
+        <value name="state">England</value>
+      </record>
+      <record name="contact" javaclass="com.wm.util.Values">
+        <value name="phone">+447015558787</value>
+        <value name="email">Harry.Winston@Debeers.com</value>
+      </record>
+    </record>
   </array>
   <record name="type" javaclass="com.wm.util.Values">
     <value name="node_type">record</value>
@@ -752,7 +765,7 @@
   <COMMENT></COMMENT>
 </SEQUENCE>
 
-<MAP TIMEOUT="" MODE="STANDALONE">
+<INVOKE TIMEOUT="" SERVICE="pub.date:getCurrentDate" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
-</MAP>
+</INVOKE>
 </FLOW>
